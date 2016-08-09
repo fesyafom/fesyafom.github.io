@@ -1,0 +1,246 @@
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////Aleksandr Feschenko CSS //////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*//////////////////////////////RESET.CSS/////////////////////////////////////////////////////////////////////////*/
+.body_af * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	line-height: 1;
+	border-collapse: collapse;
+	border-spacing: 0;
+	list-style-type: none;
+	quotes: none;
+	position: static;
+	border-radius: 0;
+	height: auto;
+}
+/*//////////////////////////////RESET.CSS END/////////////////////////////////////////////////////////////////////*/
+
+.body_af {
+	background: white;
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+}
+
+.wrapper_af {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+.clearfix_af:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.header_af {
+	background-color: whitesmoke;
+	padding: 15px;
+}
+
+.header-title_af {
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: rgb(96, 96, 96);
+	display: inline-block;
+	text-decoration: none;
+}
+
+.header-title_af:hover {
+	color: rgb(26, 187, 156);
+}
+
+.content_af {
+	overflow: hidden;
+}
+
+
+.footer_af {
+	padding: 15px;
+	background-color: whitesmoke;
+	text-align: center;
+	color: rgb(96, 96, 96);
+}
+
+/*////////////////////////////////////////SLIDE SHOW PAGE//////////////////////////////////////////////////*/
+.slide_show_af {
+	margin: 10px auto;
+	border: 1px solid rgba(0,0,0,.25);
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+}
+
+.slide_show-left_button_af,
+.slide_show-right_button_af,
+.slide_show-play_button_af {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -41px;
+	opacity: .05;
+}
+
+.slide_show-left_button_af {
+	left: 5%;
+}
+
+.slide_show-right_button_af {
+	right: 5%;
+}
+
+.slide_show-play_button_af {
+	opacity: .05;
+	left: 50%;
+	margin-left: -41px;
+}
+
+.slide_show-left_button_af:hover,
+.slide_show-play_button_af:hover,
+.slide_show-right_button_af:hover {
+	opacity: .9;
+}
+
+.slide_show-left_button_af:hover,
+.slide_show-play_button_af:hover,
+.slide_show-right_button_af:hover {
+	opacity: .9;
+}
+
+.slide_show-left_button_af:active,
+.slide_show-play_button_af:active,
+.slide_show-right_button_af:active {
+	transform:  scale(1.2, 1.2);
+}
+
+.slide_show-center_af {
+	margin: 8px;
+}
+
+.slide_show-center-image_af {
+	margin: 0 auto;
+	display: block;
+}
+
+.preview_images_af {
+	margin: 10px 0 10px 0;
+	border: 1px solid rgba(0,0,0,.25);
+	border-radius: 10px;
+	padding: 8px;
+}
+
+.preview_images-element_af {
+	float: left;
+	width: 9%;
+	padding: 0 5.5px;
+	overflow: hidden;
+}
+
+.preview_images-element-image_af {
+	max-height: 150px;
+	max-width: 150px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+	.wrapper_af {
+		margin: 0 auto;
+		max-width: 970px;
+	}
+	.preview_images-element_af {
+		padding: 0 4.5px;
+	}
+	.right_column_af {
+		margin: 8px;
+		width: 65%;
+	}
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+	.wrapper_af {
+		margin: 0 auto;
+		max-width: 746px;
+	}
+	.preview_images-element_af {
+		width: 18%;
+		padding: 0 7.2px;
+		margin: 3px 0;
+	}
+	.right_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+	.left_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+	.wrapper_af {
+		margin: 0 auto;
+		max-width: 455px;
+	}
+	.preview_images-element_af {
+		width: 23%;
+		padding: 0 1px;
+		margin: 3px 0;
+	}
+	.slide_show-center-image_af {
+		height: 420px;
+	}
+	.right_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+	.left_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+	.text_form_af {
+		width: 61%;
+	}
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+	.wrapper_af {
+		margin: 0 auto;
+		max-width: 295px;
+	}
+	.preview_images-element_af {
+		width: 30%;
+		padding: 0 3px;
+		margin: 3px 0;
+	}
+	.slide_show-center-image_af {
+		height: 300px;
+	}
+	.right_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+	.left_column_af {
+		margin: 10px 0;
+		width: 100%;
+	}
+	.text_form_af {
+		width: 59%;
+	}
+}
+/*/////////////////////////////////////SLIDE SHOW PAGE END/////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////Aleksandr Feschenko CSS END///////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
